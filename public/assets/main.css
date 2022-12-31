@@ -3,223 +3,118 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
-/* ===== BASIC BEGIN ===== */
 html {
   scroll-behavior: smooth;
 }
+
 html,
-body {
-  font-family: Roboto, "Noto Sans JP", sans-serif;
-  font-weight: 400;
+* {
   margin: 0;
   padding: 0;
-  font-size: 18px;
 }
-button {
-  background-color: initial;
-  border: initial;
-  cursor: pointer;
-  outline: initial;
-  padding: initial;
-  appearance: initial;
-  -webkit-appearance: none;
-  border-radius: initial;
-  font-size: inherit;
+body {
+  margin: 0px;
+  padding: 0px;
 }
-li,
-p {
-  text-align: justify;
-}
-p {
-  margin: 8px 0;
-}
-a {
-  color: #e8aaa3;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-/* ===== BASIC END ===== */
 
-/* ===== COMMON PARTS BEGIN ===== */
-.text-dark {
-  color: #101841;
-}
-.text-light {
-  color: #fefefe;
-}
-.text-1 {
-  color: #e8aaa3;
-}
-.text-2 {
-  color: #aeac78;
-}
-.text-3 {
-  color: #f3deb9;
-}
-.bg-1 {
-  background-color: #e8aaa3;
-}
-.bg-2 {
-  background-color: #aeac78;
-}
-.bg-3 {
-  background-color: #f3deb9;
-}
-/* ===== COMMON PARTS END ===== */
-
-/* ===== OVERALL BEGIN ===== */
-.page-cover {
-  min-height: 100vh;
-}
-.page-title {
-  margin: 0;
-  height: 80px;
-  line-height: 80px;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 800;
-}
-.page-bg-icon {
+header {
+  background-color: #e6281b;
+  height: 65px;
+  color: white;
   position: fixed;
-  width: 32px;
+  width: 100%;
+  opacity: 0.99;
+  z-index: 10;
 }
-.page-bg-icon-lt {
-  top: 16px;
-  left: 16px;
+.header-logo {
+  float: left;
+  padding: 10px 20px;
 }
-.page-bg-icon-rb {
-  right: 16px;
-  bottom: 16px;
-}
-/* ===== OVERALL END ===== */
+.school-name {
+  margin: 0;
 
-/* ===== FOOTER BEGIN ===== */
-.footer-cover {
-  max-width: 1000px;
-  margin: 0 auto;
-  box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.56);
+  height: 65px;
+  width: 200pxs;
+}
+.header-list:hover {
+  background-color: #f1837b;
+}
+.header-list a {
+  list-style: none;
+  float: right;
+  color: white;
+  background-color: #e6281b;
+  line-height: 65px;
+  padding: 0 25px;
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.header-list a:hover {
+  background-color: rgb(243, 183, 183);
+}
+.fa {
+  float: right;
+  margin: 20px;
+  width: 20px;
+  height: 20px;
+  color: white;
+  padding: 10pxpx 10px;
+  display: block;
+}
+main {
+  background-color: white;
+  height: 5000px;
+}
+
+.top-page {
+  background-image: url(./photos/S__48676906.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
   box-sizing: border-box;
+}
+.container h1 {
+  color: white;
+  padding: 80px 40px;
+  font-size: 50px;
+}
+.promotion h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.video {
+  width: 100%;
+  height: 100vh;
+}
+
+footer {
+  background-color: black;
+  height: 400px;
+  width: 100%;
   position: relative;
+  color: white;
 }
-.footer-contents {
-  padding: 16px;
-  font-size: 0.875rem;
-}
-/* ===== FOOTER END ===== */
-/* ===== CARD COMMON BEGIN ===== */
-.card-cover {
-  max-width: 1000px;
-  margin: 0 auto;
-  box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.56);
-  box-sizing: border-box;
-  position: relative;
-  background-color: #ffffff;
-}
-@media screen and (min-width: 1001px) {
-  .card-cover {
-    border-radius: 16px;
-    overflow: hidden;
-  }
-}
-.card-title-cover {
-  margin: 0 0 0 16px;
-  display: inline-block;
-  padding: 8px 16px;
-  position: relative;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  min-width: 100px;
+
+.footer-logo {
+  padding: 90px 100px;
+  width: 300px;
+  height: auto;
+  position: absolute;
   z-index: 1;
 }
-.card-title-cover::before {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.1);
-  top: 4px;
-  right: -4px;
-  bottom: -4px;
-  left: 4px;
-}
-.card-title {
-  font-family: "Pacifico", Roboto, "Noto Sans JP", sans-serif;
-  font-size: 1.4rem;
-  line-height: 1.5em;
-}
-.card-subtitle {
-  font-size: 0.7rem;
-  line-height: 2em;
-}
-.card-title-line {
-  background-color: rgba(0, 0, 0, 0.1);
-  height: 4px;
-}
-.card-contents {
-  padding: 16px;
-  font-size: 0.875rem;
-}
-/* ===== CARD COMMON END ===== */
-
-/* ===== CARD | SELF-INTRODUCTION BEGIN ===== */
-.card-basic-info-layout {
-  display: flex;
-  flex-direction: column;
-}
-@media screen and (min-width: 500px) {
-  .card-basic-info-layout {
-    flex-direction: row-reverse;
-  }
-}
-.my-photo {
-  display: block;
-  border-radius: 50%;
-  box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.7);
-  max-width: 120px;
-  padding: 4px;
-  background-color: white;
-}
-@media screen and (max-width: 500px) {
-  .my-photo {
-    margin: 16px auto;
-  }
-}
-@media screen and (min-width: 500px) {
-  .my-photo {
-    margin: 0 16px;
-  }
-}
-.card-basic-info-label {
-  font-size: 0.8rem;
-  font-weight: 500;
-  padding: 4px;
-}
-
-/* ===== CARD | HOBBY BEGIN ===== */
-.swiper-area {
-  position: relative;
+.footer-list {
+  padding: 80px 0px 0 800px;
   width: 100%;
-  height: 400px;
-  overflow: hidden;
+  height: auto;
 }
-.swiper-slide {
-  background-color: #212121;
+.footer-list h1 {
+  font-size: 30px;
+  padding: 20px;
 }
-.swiper-slide img {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.footer-list p {
+  font-size: 20px;
+  padding-left: 250px;
 }
-.swiper-slide .swiper-title {
-  margin-top: 4px;
-  position: absolute;
-  line-height: 1.5em;
-  font-size: 14px;
-  font-weight: 500;
-  background-color: #00000080;
-  color: #ffffffdd;
-  padding: 0 0.5em;
-}
-/* ===== CARD | HOBBY END ===== */
