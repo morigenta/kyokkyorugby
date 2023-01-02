@@ -57,7 +57,7 @@ header {
 
 main {
   background-color: white;
-  height: 5000px;
+  height: auto;
 }
 .title h1 {
   color: white;
@@ -68,10 +68,7 @@ main {
   font-size: 60px;
   border-bottom: 4px solid #9b1b12;
 }
-main {
-  background-color: white;
-  height: 5000px;
-}
+
 .container {
   width: 400px;
   height: 5000px;
@@ -94,6 +91,13 @@ main {
   margin: auto;
   text-align: center;
   font-size: 20px;
+}
+.table {
+  margin: 5px 30px;
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  padding: ;
 }
 
 footer {
