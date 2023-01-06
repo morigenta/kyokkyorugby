@@ -24,12 +24,17 @@ header {
   position: fixed;
   width: 100%;
   opacity: 0.99;
-
   z-index: 10;
 }
 .header-logo {
   float: left;
   padding: 10px 20px;
+}
+.school-name {
+  height: 65px;
+  width: 400px;
+  line-height: center;
+  margin: 30px 0;
 }
 .header-list:hover {
   background-color: #f1837b;
@@ -39,20 +44,22 @@ header {
   float: right;
   color: white;
   background-color: #e6281b;
-  line-height: 65px;
-  padding: 0 25px;
+  line-height: 55px;
+  padding: 10px 25px 0 25px;
+  display: block;
 }
 
 .header-list a:hover {
-  background-color: rgb(243, 183, 183);
+  background-color: rgb(255, 255, 255);
 }
 .fa {
   float: right;
-  margin-right: 20px;
+  margin: 20px;
   width: 20px;
   height: 20px;
   color: white;
-  padding: 30px 30px;
+  padding: 10px 10px;
+  display: block;
 }
 
 main {
@@ -62,26 +69,13 @@ main {
 .title h1 {
   color: white;
   background-color: black;
-  height: 215px;
+  height: 150px;
   padding: 60px 0 0px 30px;
-  line-height: 215px;
+  line-height: 160px;
   font-size: 60px;
   border-bottom: 4px solid #9b1b12;
 }
-main {
-  background-color: white;
-  height: 5000px;
-}
-.momo ~ h1 {
-  color: aqua;
-}
 
-.item > a {
-  display: block;
-  color: #e6281b;
-  text-align: center;
-  font-size: 15px;
-}
 footer {
   background-color: black;
   height: 460px;
