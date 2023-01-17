@@ -113,9 +113,9 @@ main {
   height: auto;
   padding: 0;
   position: absolute;
-
   margin: 5px;
 }
+
 .member-photo:hover {
   opacity: 0.6;
 }
@@ -165,6 +165,14 @@ main {
   text-align: center;
   pointer-events: none;
 }
+.mane-photo {
+  width: 200px;
+  height: auto;
+  padding: 0;
+  position: absolute;
+  margin: 5px;
+}
+
 footer {
   background-color: black;
   height: 460px;

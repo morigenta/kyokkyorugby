@@ -59,8 +59,8 @@ header {
 }
 
 main {
-  background-color: rgb(240, 160, 160);
-  height:auto;
+  background-color: #a5231a;
+  height: auto;
   padding: 0 0 10px 0;
 }
 .wrapper {
@@ -89,7 +89,7 @@ main {
   }
 }
 .wrapper {
-  background-color:white;
+  background-color: white;
   width: 1200px;
   margin: 40px auto;
 }
@@ -112,8 +112,6 @@ main {
 }
 
 .name {
-  background-color:#9b1b12
-
   display: block;
   color: black;
   border-bottom: 2px solid #e6281b;

@@ -100,18 +100,20 @@ video {
 .arti ul {
   display: flex;
   justify-content: center;
+  margin: 50px;
 }
-.arti a {
+.arti li {
   display: block;
   color: black;
-  margin: 20px 50px;
+  margin: 50px 50px;
   width: 250px;
-  height: 230px;
+  height: auto;
+  display: block;
 }
-.arti:hover {
-  opacity: 0.5;
+.arti li:hover {
+  opacity: 0.6;
 }
-.arti img {
+.img {
   width: 250px;
   height: auto;
 }

@@ -72,25 +72,24 @@ main {
   font-size: 60px;
   border-bottom: 4px solid #9b1b12;
 }
-.arti {
-  width: ;
-}
 
 .arti ul {
   display: flex;
   justify-content: center;
+  margin: 50px;
 }
 .arti li {
   display: block;
   color: black;
-  margin: 50px 10px;
+  margin: 50px 50px;
   width: 250px;
   height: auto;
+  display: block;
 }
-.arti:hover {
+.arti li:hover {
   opacity: 0.6;
 }
-.arti img {
+.img {
   width: 250px;
   height: auto;
 }
