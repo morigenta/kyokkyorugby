@@ -50,7 +50,7 @@ header {
 }
 
 .header-list a:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(243, 183, 183);
 }
 .fa {
   float: right;
@@ -65,6 +65,7 @@ header {
 main {
   background-color: rgb(255, 255, 255);
   height: auto;
+  padding: 0 0 100px 0;
 }
 .title h1 {
   color: white;
@@ -78,7 +79,7 @@ main {
 
 .container {
   width: 400px;
-  height: 5000px;
+  height: auto;
   background-color: white;
 }
 
@@ -96,22 +97,10 @@ main {
   color: black;
   border-bottom: 2px solid #e6281b;
 }
-.manager {
-  background-color: white;
-  width: 900px;
-  margin: 20px auto;
-  padding-left: 30px;
-  color: black;
-  border-bottom: 2px solid #e6281b;
-}
-.member {
-  position: relative;
-}
 
 .member ul {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   margin: 15px;
 }
 .member li {
@@ -171,7 +160,7 @@ main {
   position: relative;
   width: 200px;
   padding-top: 180px;
-
+  font-size: 15px;
   z-index: 5;
   text-align: center;
   pointer-events: none;

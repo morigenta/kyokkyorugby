@@ -64,6 +64,7 @@ header {
 main {
   background-color: white;
   height: auto;
+  padding: 0 0 10px 0;
 }
 
 .title h1 {
