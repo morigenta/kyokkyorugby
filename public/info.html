@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <title>北海道教育大学旭川校　ラグビー部</title>
-    <link rel="stylesheet" href="./assets/prof.css" />
+    <link rel="stylesheet" href="./assets/info.css" />
     <link rel="stylesheet" href="./assets/head&foot.css"/>
     <link
       rel="stylesheet"
@@ -15,7 +15,7 @@
   </head>
 
   <body>
-
+    
     <header>
       <div class="header-logo">
         <img src="./assets/photos/B58086D8-5EE0-4777-B1FE-3756C049905E.jpg" alt="" width="68" >
@@ -58,69 +58,29 @@
     <main>
       
       <div class="title">
-        <h1>MEMBER-PROFILE</h1>
+        <h1>お問い合わせ</h1>
       </div>
-      <div class="wrapper">
-  
-      <img 
-      src="./assets/photos/宣材写真/S__15556617.jpg"
-      class="member-photo" >
-      <div class="profile">
-      <div class="name">
-       <h1>杉村　裕次郎</h1> 
-       <p>
-        YUJIROU SUGIMURA
-      </p>
-       </div>
-       
-       <table 
-        class="data-1">
-        <tr>
-          <th>LO</th>
-        
-       
-          <th>2年生</th>
-       
-          <th>2002.1.22</th>
-        
-        <th>172cm/74kg</th>
-        </tr>
-          
-       </table>
-      <table
-      class="data-2">
-        <tr>
-          <th>出身校</th>
-          <th>旭川高専</th>
-        </tr>
-        <tr>
-          <th>専攻</th>
-          <th>数学専攻</th>
-        </tr>
-        <tr>
-          <th>ラグビーを始めたきっかけ</th>
-          <th>なめられないために</th>
-        </tr>
-        <tr>
-          <th>座右の銘</th>
-          <th>和気あいあい</th>
-        </tr>
-      </table>
+      <div class="contact-form">
+        <div class="form-title">お問い合わせ</div>
+        <form method="post" action="sent.php">
+          <div class="form-list">名前</div>
+          <input type="text" name="name">
+          <div class="form-item">メールアドレス</div>
+          <input type="text" name="address">
+          <div class="form-item">＊ご確認のためにもう一度お願いいたします。</div>
+          <input type="text" name="re.address">
+          <div class="form-item">タイトル</div>
+          <input type="text" name="content">
+          <div class="form-item">メッセージ</div>
+          <input type="text" name="message">
+          <input type="submit" value="送信">
+        </form>
       </div>
-    </div>
-    
-    
+      <!--ここよりPHPの処理対象-->
+     <?php echo "mama"; ?>
      
+       
      
-      
-        
-      
-
-
-
-     
-        
-          
       
     </main>
     
@@ -147,7 +107,7 @@
 
       <div class="contact">
         <h1>お問い合わせ</h1>
-        <p>Tell. 000-0000-0000</p>
+        <p>info@kyokkyorugby.com</p>
 
       </div>
       </div>

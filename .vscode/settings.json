@@ -7,5 +7,8 @@
   },
   "editor.formatOnSave": true,
   "editor.comments.ignoreEmptyLines": false,
-  "editor.rulers": [80]
+  "editor.rulers": [
+    80
+  ],
+  "php.validate.executablePath": ""
 }

@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+/*タブレット向けレイアウト*/
+
+/*スマホ向けレイアウト*/
+@media (max-width: 670px) {
+  .school-name {
+    font-size: 14px;
+    width: 220px;
+    padding: 0;
+    padding-top: 25px;
+  }
+  .header-icon {
+    display: none;
+  }
+  .header-list {
+    display: none;
+  }
+
+  .title1 {
+    width: 40%;
+    font-size: 24px;
+  }
+  .top-page {
+    width: 100%;
+    height: 260px;
+    padding-top: 65px;
+  }
+  .container h1 {
+    font-size: 12px;
+    padding: 7px;
+  }
+  video {
+    width: 80%;
+  }
+  .arti h1,
+  p {
+    font-size: 60%;
+  }
+  .arti img {
+    width: 100px;
+    margin: auto;
+  }
+
+  .footer-logo {
+    width: 200px;
+    padding: 0;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+  }
+  .footer-list {
+    padding: 0;
+  }
+
+  .footer-list h1 {
+    font-size: 30px;
+    float: left;
+    width: 100%;
+  }
+  .footer-list p {
+    float: left;
+    font-size: 20px;
+    padding-left: 30px;
+  }
+}
+/*パソコン用*/
+.right-menu {
+  display: none;
+}

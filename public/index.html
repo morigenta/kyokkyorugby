@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <title>北海道教育大学旭川校　ラグビー部</title>
     <link rel="stylesheet" href="./assets/main.css" />
+    <link rel="stylesheet" href="./assets/head&foot.css"/>
+    <link rel="stylesheet" href="./assets/responsive.css">
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <meta name="google-site-verification" content="RjXtCY9awBP3aIs_4hBLimaCnvLitURtxYFi-OHOva0" />
   </head>
+  <script src="./assets/script.js"></script>
 
   <body>
 
@@ -19,62 +23,70 @@
       <div class="header-logo">
         <img src="./assets/photos/B58086D8-5EE0-4777-B1FE-3756C049905E.jpg" alt="" width="68" >
       </div>
-      <div claass="header-icon">
+      <h1 class="school-name">
+        北海道教育大学旭川校ラグビー部
+      </h1>
+      <!--  メニューアイコン部分　携帯・タブレット用　-->    
+      <div class="right-menu">
+      <span class="fa fa-bars menu-icon" id="icon-menu"></span>
+       
+      <nav id="nav" class="navi">
+        <ul>
+          <li> <a href="./index.html" class="home">HOME</a> </li>
+          <li><a href="./member.html" class="member">MEMBER</a></li>
+          <li> <a href="./news.html" class="news">NEWS</a></li>
+          <li> <a href="./schedule.html" class="schedule">SCHEDULE</a></li>
+        </ul>
+      </nav>
+      <div id="back" class="menu-background"></div>
+      </div>
+
+      <!-- ここまで　-->
+
+      <div class="header-icon">
         <div class="icon-instagram">
-          <a href="https://www.instagram.com/kyokkyo_rugby/" target="_blank" class="fa fa-instagram">
-          </a> 
+         <a href="https://www.instagram.com/kyokkyo_rugby/" target="_blank" class="fa fa-instagram">
+         </a> 
         </div>
         <div class="icon-facebook">
-        <a href="https://www.facebook.com/groups/346864898758792/?multi_permalinks=5479353682176529%2C5474476039330960%2C5470464213065476&notif_id=1671001910728269&notif_t=group_activity&ref=notif" target="_blank" class="fa fa-facebook">
-        </a>
+         <a href="https://www.facebook.com/groups/346864898758792/?multi_permalinks=5479353682176529%2C5474476039330960%2C5470464213065476&notif_id=1671001910728269&notif_t=group_activity&ref=notif" target="_blank" class="fa fa-facebook">
+         </a>
         </div>
         <div class="icon-twitter">
-          <a href="https://twitter.com/kyokkyo_rugby" target="_blank" class="fa fa-twitter">
-          </a>
-         <div class="icon-youtube">
-          <a href="https://www.youtube.com/@user-ko9vl4qc6x" target="_blank" class="fa fa-youtube"></a>
-         </div> 
+         <a href="https://twitter.com/kyokkyo_rugby" target="_blank" class="fa fa-twitter">
+         </a>
+        </div>
+        <div class="icon-youtube">
+         <a href="https://www.youtube.com/@user-ko9vl4qc6x" target="_blank" class="fa fa-youtube"></a>
         </div> 
-      
-          <div class="header-list">
-            
-              <a href="./member.html" class="member">MEMBER</a>
-              <a href="./schedule.html" class="schedule">SCHEDULE</a>
-              <a href="./news.html" class="news">NEWS</a>
-              <a href="./index.html" class="home">HOME</a>
-            
-            
-          </div>
-          
-          
-        </div>
-        <div class="school-name">
-          北海道教育大学旭川校ラグビー部
-        </div>
-       
-      </div>
-     </header>
+      </div>       
+      <div class="header-list">            
+       <a href="./member.html" class="member">MEMBER</a>
+       <a href="./schedule.html" class="schedule">SCHEDULE</a>
+       <a href="./news.html" class="news">NEWS</a>
+       <a href="./index.html" class="home">HOME</a> 
+       <a href="./info.html" class="info">お問い合わせ</a> 
+      </div> 
+    </header>
     
     <main>
      <div class="top-page">
       <div class="container">
-        <h1>ラグビーにおける唯一の痛みは後悔だ。</h1>
         
           
       </div>
      </div>
      <div class="promotion">
-      <h1 class="title">紹介動画</h1>
+      <h1 class="title1">紹介動画</h1>
       <video 
         src="./assets/video/693918339.099731.mp4" 
-        
         controls autoplay muted loop 
         class="video">
       </video>
      </div>
-     <div class="title">
-      <h1>NEWS</h1>
-    </div>
+     
+      <h1 class="title1">NEWS</h1>
+  
     <div class="arti">
       <ul>
         <li>
@@ -120,7 +132,6 @@
       
       <div class="practice">
         <h1>活動時間</h1>
-        <p> </p>
         <p>火曜　 8：00～10：00</p>
         <p>水曜　16：00～18：00</p>
         <p>土曜　 9：00～11：00</p>
@@ -134,5 +145,6 @@
       </div>
       </div>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
