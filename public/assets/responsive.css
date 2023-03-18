@@ -7,6 +7,16 @@
 
 /*スマホ向けレイアウト*/
 @media (max-width: 670px) {
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /*メニュー部分*/
+
+  /*ここまで*/
   .school-name {
     font-size: 14px;
     width: 220px;
