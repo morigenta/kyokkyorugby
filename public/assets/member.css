@@ -25,22 +25,22 @@
   border-bottom: 2px solid #e6281b;
 }
 
-.member ul {
+/*  写真の表示形式 */
+.member {
   display: flex;
-  justify-content: center;
-  margin: 15px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.member li {
-  list-style: none;
-  display: block;
-  margin: 5px 5px;
-}
+
+
+
+
 .member-photo {
   width: 200px;
   height: auto;
   padding: 0;
   position: absolute;
-  margin: 5px;
+  margin: 5px 5px 30px 5px;
 }
 
 .member-photo:hover {
@@ -55,7 +55,7 @@
   pointer-events: none;
 }
 .member-number {
-  padding: 17px 20px;
+  padding: 18px 21px;
   position: absolute;
   z-index: 3;
   color: white;
@@ -64,18 +64,18 @@
   pointer-events: none;
 }
 .member-number-2 {
-  padding: 18px 16px;
+  padding: 20px 16px;
   position: absolute;
   z-index: 3;
   color: white;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 18;
   pointer-events: none;
 }
 .member-logo {
   width: 205px;
   height: auto;
-  padding: 11px 0 0px 5px;
+  padding: 43px 0 0px 5px;
   position: absolute;
   z-index: 4;
   margin: 0 auto;
@@ -86,7 +86,7 @@
   color: white;
   position: relative;
   width: 200px;
-  padding-top: 180px;
+  padding-top: 220px;
   font-size: 15px;
   z-index: 5;
   text-align: center;
