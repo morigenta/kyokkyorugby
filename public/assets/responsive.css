@@ -70,6 +70,11 @@
     padding: 10px;
     visibility: visible;
   }
+  .title1 {
+    width: auto;
+    font-size: 23px;
+    margin: 30px;
+  }
 
   .title h1 {
     height: 130px;
