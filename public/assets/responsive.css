@@ -4,26 +4,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 /*タブレット向けレイアウト*/
-
+@media (min-width: 751px) {
+  .acd-menu {
+    display: none;
+  }
+}
 /*スマホ向けレイアウト*/
-@media (max-width: 670px) {
-  .school-name {
-    font-size: 14px;
-    width: 220px;
-    padding: 0;
-    padding-top: 25px;
-  }
-  .header-icon {
+@media (max-width: 750px) {
+  header {
     display: none;
   }
-  .header-list {
+  .acd-menu {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  .acd-check {
     display: none;
+  }
+  .acd-label {
+    background: #e6281b;
+    color: #fff;
+    display: block;
+    height: 60px;
+    padding: 10px;
+    margin: auto;
+    font-size: 12px;
+  }
+  .acd-label:before {
+    background: #c12318;
+    box-sizing: border-box;
+    content: "\f0c9";
+    display: block;
+    font-family: "Font Awesome 5 Free";
+    height: 60px;
+    padding: 25px 15px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    font-weight: 900;
+  }
+  .acd-content {
+    opacity: 0;
+    padding: 0 10px;
+    transition: 0.5s;
+    visibility: hidden;
+    background-color: #c12318;
+    color: #fff;
+    height: 190px;
+  }
+  .acd-content a {
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+  }
+  .acd-content:hover {
+    background-color: #f1837b;
+  }
+  .acd-check:checked + .acd-label:before {
+    content: "\f00d";
+  }
+  .acd-check:checked + .acd-label + .acd-content {
+    opacity: 1;
+    padding: 10px;
+    visibility: visible;
   }
 
   .title1 {
     width: 40%;
     font-size: 24px;
   }
+  /* メインページ */
   .top-page {
     width: 100%;
     height: 260px;
@@ -45,6 +97,7 @@
     margin: auto;
   }
 
+  /* フッター */
   .footer-logo {
     width: 200px;
     padding: 0;
@@ -67,8 +120,4 @@
     font-size: 20px;
     padding-left: 30px;
   }
-}
-/*パソコン用*/
-.right-menu {
-  display: none;
 }
