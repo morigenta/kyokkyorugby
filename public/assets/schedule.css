@@ -8,3 +8,9 @@ table {
   margin: 50px auto;
   text-align: center;
 }
+@media (max-width: 750px) {
+  table {
+    width: auto;
+    margin: 10px;
+  }
+}
