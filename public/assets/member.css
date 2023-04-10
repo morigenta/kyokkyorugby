@@ -57,7 +57,7 @@
   pointer-events: none;
 }
 .member-number {
-  padding: 15px 18px;
+  padding: 15px 17px;
   position: absolute;
   z-index: 3;
   color: white;
@@ -120,6 +120,9 @@
   .mane-photo {
     width: 40%;
     margin: 5px;
+  }
+  .member-number {
+    padding: 16px 19.5px;
   }
 
   .member-logo {
