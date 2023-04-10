@@ -25,6 +25,11 @@
   border-bottom: 2px solid #e6281b;
 }
 
+.member ul {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
 .member li {
   list-style: none;
   display: block;
@@ -49,7 +54,7 @@
   opacity: 0.6;
 }
 .member-number-logo {
-  width: 110px;
+  width: 120px;
   height: auto;
   padding: 0 3px;
   position: absolute;
@@ -57,7 +62,7 @@
   pointer-events: none;
 }
 .member-number {
-  padding: 15px 18px;
+  padding: 17px 20px;
   position: absolute;
   z-index: 3;
   color: white;
@@ -65,19 +70,11 @@
   font-weight: 18;
   pointer-events: none;
 }
-.member-number-2 {
-  padding: 18px 16px;
-  position: absolute;
-  z-index: 3;
-  color: white;
-  font-size: 23px;
-  font-weight: 18;
-  pointer-events: none;
-}
+
 .member-logo {
   width: 205px;
   height: auto;
-  padding: 37px 0 0px 5px;
+  padding: 44px 0 0px 5px;
   position: absolute;
   z-index: 4;
   margin: 0 auto;
@@ -106,32 +103,38 @@
     display: block;
   }
   .player {
-    width: 90%;
+    width: 70%;
     font-size: 20px;
   }
-  .member {
+  .member ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: 0px 15px;
   }
   .member-photo {
     width: 40%;
-    display: block;
   }
   .mane-photo {
     width: 40%;
-    margin: 5px;
   }
 
   .member-logo {
     width: 41.5%;
     height: auto;
+    padding-top: 40px;
   }
   .member-name {
     padding-top: 100%;
-    width: 85%;
-    margin: 3px 0px 3px 3px;
+    width: 90%;
+    margin: 3px 0px 10px 3px;
+  }
+  .member-name p {
+    font-size: 15px;
   }
   .member-name h1 {
-    font-size: 18px;
+    font-size: 20px;
+  }
+  .member-number {
+    padding: 19px 21px;
   }
 }
