@@ -66,3 +66,24 @@
 .data-2 tr:nth-of-type(2n) {
   background-color: #cecaca;
 }
+
+@media (max-width: 750px) {
+  .wrapper {
+    width: 90%;
+  }
+  .wrapper th {
+    font-size: 80%;
+  }
+  .profile {
+    width: 95%;
+  }
+  .data-1 {
+    width: 95%;
+  }
+  .data-1 th {
+    font-size: 50%;
+  }
+  .data-2 {
+    width: 95%;
+  }
+}
