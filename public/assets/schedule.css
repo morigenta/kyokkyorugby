@@ -10,7 +10,6 @@ table {
 }
 @media (max-width: 750px) {
   table {
-    width: auto;
-    margin: 10px;
+    width: 95%;
   }
 }
