@@ -1,0 +1,16 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+table {
+  width: 1000px;
+  margin: 50px auto;
+  text-align: center;
+}
+@media (max-width: 750px) {
+  table {
+    width: auto;
+    margin: 10px;
+  }
+}

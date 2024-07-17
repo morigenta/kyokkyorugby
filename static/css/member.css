@@ -1,0 +1,140 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.container {
+  width: 400px;
+  height: auto;
+  background-color: white;
+}
+
+.group-photo {
+  width: 700px;
+  height: auto;
+  margin: 20px auto;
+  border: 2px solid black;
+  display: block;
+}
+.player {
+  background-color: white;
+  width: 900px;
+  margin: 20px auto;
+  padding-left: 30px;
+  color: black;
+  border-bottom: 2px solid #e6281b;
+}
+
+.member ul {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.member li {
+  list-style: none;
+  display: block;
+  margin: 5px 5px;
+}
+.member-photo {
+  width: 200px;
+  height: auto;
+  padding: 0;
+  position: absolute;
+  margin: 5px;
+}
+.mane-photo {
+  width: 200px;
+  height: auto;
+  padding: 0;
+  position: absolute;
+  margin: 5px;
+}
+
+.member-photo:hover {
+  opacity: 0.6;
+}
+.member-number-logo {
+  width: 120px;
+  height: auto;
+  padding: 0 3px;
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+}
+.member-number {
+  padding: 17px 20px;
+  position: absolute;
+  z-index: 3;
+  color: white;
+  font-size: 23px;
+  font-weight: 18;
+  pointer-events: none;
+}
+
+.member-logo {
+  width: 205px;
+  height: auto;
+  padding: 44px 0 0px 5px;
+  position: absolute;
+  z-index: 4;
+  margin: 0 auto;
+  pointer-events: none;
+}
+
+.member-name {
+  color: white;
+  position: relative;
+  width: 200px;
+  padding-top: 220px;
+  font-size: 15px;
+  z-index: 5;
+  text-align: center;
+  pointer-events: none;
+}
+.mane-phot img {
+  width: 200px;
+  height: auto;
+}
+
+@media (max-width: 750px) {
+  .group-photo {
+    width: 90%;
+    height: auto;
+    display: block;
+  }
+  .player {
+    width: 70%;
+    font-size: 20px;
+  }
+  .member ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 15px;
+  }
+  .member-photo {
+    width: 40%;
+  }
+  .mane-photo {
+    width: 40%;
+  }
+
+  .member-logo {
+    width: 41.5%;
+    height: auto;
+    padding-top: 40px;
+  }
+  .member-name {
+    padding-top: 100%;
+    width: 94%;
+    margin: 3px 0px 10px 3px;
+  }
+  .member-name p {
+    font-size: 15px;
+  }
+  .member-name h1 {
+    font-size: 20px;
+  }
+  .member-number {
+    padding: 19px 21px;
+  }
+}
